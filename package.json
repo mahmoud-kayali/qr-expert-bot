@@ -1,0 +1,38 @@
+{
+  "name": "qr-expert-bot",
+  "version": "0.0.1",
+  "description": "A Botkit Cisco Spark Bot for handling QR Codes",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "botkit": "^0.6.12",
+    "debug": "^2.6.0",
+    "express": "^4.14.0",
+    "node-env-file": "^0.1.8",
+    "request": "^2.85.0",
+    "wordfilter": "^0.2.6",
+    "jimp": "^0.2.28",
+    "qrcode-reader": "^1.0.4",
+    "qr-image": "^3.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahmoud-kayali/qr-expert-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mahmoud-kayali/qr-expert-bot/issues"
+  },
+  "homepage": "https://github.com/hmahmoud-kayali/qr-expert-bot",
+  "keywords": [
+    "bots",
+    "chatbots",
+    "Cisco Spark",
+    "Qr Code"
+  ],
+  "author": "mkayali@appspace.com",
+  "license": "ISC"
+}
